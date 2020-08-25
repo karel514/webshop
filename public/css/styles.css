@@ -1,0 +1,38 @@
+.caption{
+    height: 156px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+#srchbtn{
+ /*   color: #4cae4c;
+    width: 100px;
+    height: 40px;
+    font-size: 22px;*/
+}
+
+#prior{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../resources/uploads/hiveworld.jpg);
+
+}
+.container{}
