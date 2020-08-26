@@ -171,7 +171,7 @@ if($page != $lastPage){
         $product = <<<DELIMETER
 <div class="col-sm-4 col-lg-4 col-md-4">
                     <div class="thumbnail">
-                        <a href="item.php?id={$row['product_id']}"><img style="width: 100; height: 200px" src="../resources/{$product_image}" alt=""></a>
+                        <a href="item.php?id={$row['product_id']}"><img style="width: 100; height: 300px" src="../resources/{$product_image}" alt=""></a>
                         <div class="caption">
                             <h4 class="pull-right">&euro;{$row['product_price']}</h4>
                             <h4><a href="item.php?id={$row['product_id']}">{$row['product_title']}</a>
@@ -290,7 +290,7 @@ function get_products_in_cat_page(){
         $product = <<<DELIMETER
 <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="../resources/{$product_image}" alt="">
+                    <img src="../resources/{$product_image}" alt="" style="height: 300px; width: 100;">
                     <div class="caption">
                         <h3>{$row['product_title']}</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

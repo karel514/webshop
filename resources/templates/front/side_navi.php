@@ -3,9 +3,10 @@
 
 
 <div class="col-md-3 ">
-    <p class="lead text-center"><strong>Warhammer Library</strong></p>
+    <p id="whl" class="lead text-center"><strong>Warhammer Library</strong></p>
+    <p class="text-center">Choose any faction</p>
     <div class="list-group">
-        <p class="text-center">Choose any faction</p>
+
 
         <!--ier de sidebar tabelcategories eig-->
         <?php

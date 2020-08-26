@@ -17,8 +17,9 @@
 
         <!-- Title -->
         <div class="row">
-            <div class="col-lg-12">
-                <h3>Latest Products</h3>
+            <div class="col-lg-12 text-center">
+                <h3 style="color: white">------Related books------</h3>
+                <br>
             </div>
         </div>
         <!-- /.row -->

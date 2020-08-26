@@ -6,8 +6,8 @@
     <!-- Footer -->
     <footer>
         <div class="row">
-            <div class="col-lg-12">
-                <p>Copyright &copy; Your Website 2030</p>
+            <div class="col-lg-12 text text-center" style="color: white">
+                <p>Made by Karel De Ruddere</p>
             </div>
         </div>
     </footer>
