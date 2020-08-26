@@ -3,12 +3,11 @@
 <?php include (TEMPLATE_FRONT . DS . "header.php")?>
 
     <!-- Page Content -->
-    <div class="container">
+    <div id="shopcont" class="container">
 
         <!-- Jumbotron Header -->
         <header >
-            <h1 class="text-center">Shop</h1>
-
+            <h1  class="text-center">Shop</h1>
         </header>
 
         <hr>

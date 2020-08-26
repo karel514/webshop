@@ -288,11 +288,11 @@ function get_products_in_cat_page(){
         $product_image = display_image($row['product_image']);
 
         $product = <<<DELIMETER
-<div class="col-md-3 col-sm-6 hero-feature">
+<div class="col-sm-4 col-lg-3 col-md-4">
                 <div class="thumbnail">
                     <img src="../resources/{$product_image}" alt="" style="height: 300px; width: 100;">
                     <div class="caption">
-                        <h3>{$row['product_title']}</h3>
+                        <h3 id="ctp">{$row['product_title']}</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <p>
                             <a href="../resources/cart.php?add={$row['product_id']}" class="btn btn-primary">Buy Now!</a> <a href="item.php?id={$row['product_id']}" class="btn btn-default">More Info</a>
@@ -319,9 +319,9 @@ function get_products_in_shop_page(){
         $product_image = display_image($row['product_image']);
 
         $product = <<<DELIMETER
-<div class="col-md-3 col-sm-6 hero-feature">
+<div class="col-sm-4 col-lg-3 col-md-4">
                 <div class="thumbnail">
-                    <img style="width: 100; height: 200px" src="../resources/{$product_image}" alt="">
+                    <img style="width: 100; height: 300px" src="../resources/{$product_image}" alt="">
                     <div class="caption">
                         <h3>{$row['product_title']}</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
